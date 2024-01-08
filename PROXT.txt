@@ -1,0 +1,27 @@
+Task : Making a proxy server by using openvpn server on AWS Console
+
+1. prerequisite
+
+- AWS account
+
+step-1 login on aws console
+Step-2 Now we need to 2 instance, one instance worked as Real server and another instance will be our proxy server
+	so its mean whenever any user requests, the request will goto proxy server, after that proxy server trasfer it to the Real server.
+	
+	2.1: launch an instance in which choose AMI openvpn access server this instance will worked as our proxy server, now connect the instace and do all the default settings.
+	
+
+
+	2.2: Go to the Admin User Interface of your Access Server.
+ and launch 2 instances.
+
+
+
+
+
+proxy server
+ 1. Firstly launch instance with ami openvpn access server
+ 2 Now in the openvpn server do all the default settings , 
+Log in with your user credentials.Now do all the network settings and save updates
+ 3 Now launch an instance in which you keep your real server
+ 
